@@ -11,14 +11,14 @@
 
     <servlet>
         <servlet-name>TestServlet</servlet-name>
-        <servlet-class>ru.netology.MainServlet</servlet-class>
+        <servlet-class>ru.netology.servlet.MainServlet</servlet-class>
         <load-on-startup>1</load-on-startup>
     </servlet>
 
     <!-- Привязка сервлета к URL -->
     <servlet-mapping>
         <servlet-name>TestServlet</servlet-name>
-        <url-pattern>/app</url-pattern>
+        <url-pattern>/</url-pattern>
     </servlet-mapping>
 
 
